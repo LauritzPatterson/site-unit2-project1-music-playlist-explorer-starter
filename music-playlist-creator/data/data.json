@@ -1,0 +1,92 @@
+{
+  "playlists": [
+    {
+      "playlistID": 1,
+      "playlist_name": "Place HOLder ",
+      "playlist_author": "Place HOLder",
+      "playlist_art": "assets/img/playlist.png",
+      "like_count": 12,
+      "songs": [
+        { "title": "Place HOLder", "album": "Place HOLder", "duration": "3:12" },
+        { "title": "Moonlight Ride", "album": "Nocturne", "duration": "4:05" }
+      ]
+    },
+    {
+      "playlistID": 2,
+      "playlist_name": "Place HOLderg",
+      "playlist_author": "Place HOLder",
+      "playlist_art": "assets/img/playlist.png",
+      "like_count": 26,
+      "songs": [
+        { "title": "Place HOLder", "album": "Place HOLder", "duration": "3:50" },
+        { "title": "June Bloom", "album": "Forever Young", "duration": "4:08" }
+      ]
+    },
+    {
+      "playlistID": 3,
+      "playlist_name": "Place HOLder",
+      "playlist_author": "Place HOLderd",
+      "playlist_art": "assets/img/playlist.png",
+      "like_count": 10,
+      "songs": [
+        { "title": "JumpsPlace HOLder", "album": "Place HOLder", "duration": "2:56" },
+        { "title": "Place HOLder", "album": "Place HOLder", "duration": "3:48" }
+      ]
+    },
+    {
+      "playlistID": 4,
+      "playlist_name": "Place HOLder",
+      "playlist_author": "Place HOLder",
+      "playlist_art": "assets/img/playlist.png",
+      "like_count": 5,
+      "songs": [
+        { "title": "Place HOLder", "album": "Place HOLder", "duration": "3:25" },
+        { "title": "Destination", "album": "Long Drive", "duration": "4:10" }
+      ]
+    },
+    {
+      "playlistID": 5,
+      "playlist_name": "Place HOLder",
+      "playlist_author": "Place HOLder",
+      "playlist_art": "assets/img/playlist.png",
+      "like_count": 8,
+      "songs": [
+        { "title": "Place HOLder", "album": "Place HOLder", "duration": "3:05" },
+        { "title": "Place HOLder", "album": "Place HOLder", "duration": "3:57" }
+      ]
+    },
+    {
+      "playlistID": 6,
+      "playlist_name": "Place HOLder",
+      "playlist_author": "Place HOLder",
+      "playlist_art": "assets/img/playlist.png",
+      "like_count": 3,
+      "songs": [
+        { "title": "Place HOLder", "album": "Place HOLder", "duration": "4:10" },
+        { "title": "Cloudy Thoughts", "album": "Reflection", "duration": "3:45" }
+      ]
+    },
+    {
+      "playlistID": 7,
+      "playlist_name": "Place HOLder",
+      "playlist_author": "Place HOLder",
+      "playlist_art": "assets/img/playlist.png",
+      "like_count": 9,
+      "songs": [
+        { "title": "Place HOLder", "album": "Throwback", "duration": "3:29" },
+        { "title": "Place HOLder", "album": "Retro Vibes", "duration": "4:02" }
+      ]
+    },
+    {
+      "playlistID": 8,
+      "playlist_name": "Place HOLders",
+      "playlist_author": "Place HOLder",
+      "playlist_art": "assets/img/playlist.png",
+      "like_count": 4,
+      "songs": [
+        { "title": "Place HOLder", "album": "Place HOLder", "duration": "2:55" },
+        { "title": "Place HOLder", "album": "Place HOLder", "duration": "3:47" }
+      ]
+    }
+  ]
+}

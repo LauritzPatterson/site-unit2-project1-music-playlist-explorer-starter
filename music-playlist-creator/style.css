@@ -1,6 +1,180 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8f8;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+header,
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+header h1,
+footer p {
+  margin: 0;
+}
+
+main {
+  margin-bottom: 2rem;
+}
+
+/* Playlist Card Grid */
+.playlist-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.playlist-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  border: 1px solid #eee;
+  width: 220px;
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+}
+
+.playlist-card:hover {
+  transform: translateY(-5px) scale(1.025);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.14);
+  border-color: #67b26f;
+}
+
+.playlist-cover {
+  width: 100%;
+  height: 120px;
+  background: #f0f0f0;
+  border-radius: 0.6rem;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  display: block;
+}
+
+.playlist-info h2 {
+  margin: 0 0 0.3rem 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.playlist-info p {
+  margin: 0 0 0.6rem 0;
+  font-size: 0.98rem;
+  color: #666;
+}
+
+.playlist-meta {
+  color: #db2777;
+  font-size: 1rem;
+}
+
+.modal-overlay {
+  display: none;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-overlay.active {
+  display: flex;
+  visibility: visible;
+}
+
+.heart-icon.active {
+  background-color: red;
+}
+
+.modal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.modal-content img.playlist-cover {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.close-button {
+  position: absolute;
+  top: 0.8rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333;
+}
+
+.modalContent {
+  background: #fff;
+  border-radius: 1.2rem;
+  max-width: 430px;
+  width: 95vw;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.17);
+  animation: modalFadeIn 0.35s;
+}
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+  .playlist-cards {
+    gap: 1rem;
+    padding: 1rem 0.3rem;
+  }
+  .playlist-card {
+    width: 180px;
+    padding: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .playlist-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .playlist-card {
+    width: 90vw;
+    max-width: 340px;
+    padding: 1rem 0.5rem;
+  }
+}
+.heart-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.heart-icon-container {
+  display: flex;
+  column-gap: 10px;
 }
