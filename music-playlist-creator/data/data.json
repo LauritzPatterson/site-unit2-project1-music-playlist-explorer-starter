@@ -2,41 +2,41 @@
   "playlists": [
     {
       "playlistID": 1,
-      "playlist_name": "Playlist 1",
-      "playlist_author": "Playlist 1 Author",
-      "playlist_art": "assets/img/playlist.png",
-      "like_count": 12,
+      "playlist_name": "Chill Lo-Fi Beats for Studying",
+      "playlist_author": "Lauritz Patterson",
+      "playlist_art": "https://fastly.picsum.photos/id/13/2500/1667.jpg?hmac=SoX9UoHhN8HyklRA4A3vcCWJMVtiBXUg0W4ljWTor7s",
+      "like_count": 35,
       "songs": [
         {
           "title": "Song 1",
           "album": "Album 1",
           "duration": "3:12",
-          "songArt": "https://picsum.photos/200/300"
+          "songArt": "https://picsum.photos/50"
         },
         {
           "title": "Moonlight Ride",
           "album": "Nocturne",
           "duration": "4:05",
-          "songArt": "https://picsum.photos/200/300"
+          "songArt": "https://picsum.photos/50"
         },
 
         {
           "title": "Song 2",
           "album": "Album 2",
           "duration": "3:12",
-          "songArt": "https://picsum.photos/200/300"
+          "songArt": "https://picsum.photos/50"
         },
         {
           "title": "Song 2",
           "album": "Album 2",
           "duration": "3:12",
-          "songArt": "https://picsum.photos/200/300"
+          "songArt": "https://picsum.photos/50"
         },
         {
           "title": "Song 3",
           "album": "Album 3",
           "duration": "3:12",
-          "songArt": "https://picsum.photos/200/300"
+          "songArt": "https://picsum.photos/50"
         },
         {
           "title": "Song 4",
@@ -48,107 +48,325 @@
     },
     {
       "playlistID": 2,
-      "playlist_name": "playlist 2",
-      "playlist_author": "plalist 2 author",
-      "playlist_art": "assets/img/playlist.png",
+      "playlist_name": "Workout PLaylist",
+      "playlist_author": "Lauritz Patterson ",
+      "playlist_art": "https://fastly.picsum.photos/id/41/1280/805.jpg?hmac=W9CWeYdlZisqEfhjuODl83T3lCXAqjUZrOe9iMFPYmI",
       "like_count": 26,
       "songs": [
         {
-          "title": "Place HOLder",
-          "album": "Place HOLder",
-          "duration": "3:50"
+          "title": "Song 1",
+          "album": "Album 1",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
         },
-        { "title": "June Bloom", "album": "Forever Young", "duration": "4:08" }
+        {
+          "title": "Moonlight Ride",
+          "album": "Nocturne",
+          "duration": "4:05",
+          "songArt": "https://picsum.photos/50"
+        },
+
+        {
+          "title": "Song 2",
+          "album": "Album 2",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        },
+        {
+          "title": "Song 2",
+          "album": "Album 2",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        },
+        {
+          "title": "Song 3",
+          "album": "Album 3",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        },
+        {
+          "title": "Song 4",
+          "album": "Album 4",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        }
       ]
     },
     {
       "playlistID": 3,
-      "playlist_name": "Place HOLder",
-      "playlist_author": "Place HOLderd",
-      "playlist_art": "assets/img/playlist.png",
+      "playlist_name": "Throw Back Jams",
+      "playlist_author": "Lauritz Patterson ",
+      "playlist_art": "https://fastly.picsum.photos/id/39/3456/2304.jpg?hmac=cc_VPxzydwTUbGEtpsDeo2NxCkeYQrhTLqw4TFo-dIg",
       "like_count": 10,
       "songs": [
         {
-          "title": "JumpsPlace HOLder",
-          "album": "Place HOLder",
-          "duration": "2:56"
+          "title": "Song 1",
+          "album": "Album 1",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
         },
-        { "title": "Place HOLder", "album": "Place HOLder", "duration": "3:48" }
+        {
+          "title": "ThrowBack Vibes",
+          "album": "Nocturne",
+          "duration": "4:05",
+          "songArt": "https://picsum.photos/50"
+        },
+
+        {
+          "title": "Song 2",
+          "album": "Album 2",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        },
+        {
+          "title": "Song 2",
+          "album": "Album 2",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        },
+        {
+          "title": "Throw it back vibes",
+          "album": "Album 3",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        },
+        {
+          "title": "Song 4",
+          "album": "Album 4",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        }
       ]
     },
     {
       "playlistID": 4,
-      "playlist_name": "Place HOLder",
-      "playlist_author": "Place HOLder",
-      "playlist_art": "assets/img/playlist.png",
+      "playlist_name": "Midnight Musings",
+      "playlist_author": "Lauritz Patterson",
+      "playlist_art": "https://fastly.picsum.photos/id/84/1280/848.jpg?hmac=YFRYDI4UsfbeTzI8ZakNOR98wVU7a-9a2tGF542539s",
       "like_count": 5,
       "songs": [
-        {
-          "title": "Place HOLder",
-          "album": "Place HOLder",
-          "duration": "3:25"
+       {
+          "title": "Midnight Muse",
+          "album": "Album 1",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
         },
-        { "title": "Destination", "album": "Long Drive", "duration": "4:10" }
+        {
+          "title": "Moonlight Ride",
+          "album": "Nocturne",
+          "duration": "4:05",
+          "songArt": "https://picsum.photos/50"
+        },
+
+        {
+          "title": "Song 2",
+          "album": "Album 2",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        },
+        {
+          "title": "Song 2",
+          "album": "Album 2",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        },
+        {
+          "title": "Song 3",
+          "album": "Album 3",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        },
+        {
+          "title": "Song 4",
+          "album": "Album 4",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        }
       ]
     },
     {
       "playlistID": 5,
-      "playlist_name": "Place HOLder",
-      "playlist_author": "Place HOLder",
-      "playlist_art": "assets/img/playlist.png",
+      "playlist_name": "Mellow Moments",
+      "playlist_author": "Lauritz Patterson",
+      "playlist_art": "https://fastly.picsum.photos/id/98/3264/2176.jpg?hmac=yRaOwMpmio9mwf43lbPEYI_5-WiPWoghJZyOKldQ43U",
       "like_count": 8,
       "songs": [
         {
-          "title": "Place HOLder",
-          "album": "Place HOLder",
-          "duration": "3:05"
+          "title": "Song 1",
+          "album": "Album 1",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
         },
-        { "title": "Place HOLder", "album": "Place HOLder", "duration": "3:57" }
+        {
+          "title": "Moonlight Ride",
+          "album": "Nocturne",
+          "duration": "4:05",
+          "songArt": "https://picsum.photos/50"
+        },
+
+        {
+          "title": "Song 2",
+          "album": "Album 2",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        },
+        {
+          "title": "Song 2",
+          "album": "Album 2",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        },
+        {
+          "title": "Song 3",
+          "album": "Album 3",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        },
+        {
+          "title": "Song 4",
+          "album": "Album 4",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        }
       ]
     },
     {
       "playlistID": 6,
-      "playlist_name": "Place HOLder",
-      "playlist_author": "Place HOLder",
-      "playlist_art": "assets/img/playlist.png",
-      "like_count": 3,
+      "playlist_name": "Gaming Vibes",
+      "playlist_author": "Lauritz Patterson",
+      "playlist_art": "https://fastly.picsum.photos/id/96/4752/3168.jpg?hmac=KNXudB1q84CHl2opIFEY4ph12da5JD5GzKzH5SeuRVM",
+      "like_count": 110,
       "songs": [
         {
-          "title": "Place HOLder",
-          "album": "Place HOLder",
-          "duration": "4:10"
+          "title": "Valorant Beats",
+          "album": "Valo",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
         },
         {
-          "title": "Cloudy Thoughts",
-          "album": "Reflection",
-          "duration": "3:45"
+          "title": "Marvel Rivals",
+          "album": "Marvel",
+          "duration": "4:05",
+          "songArt": "https://picsum.photos/50"
+        },
+
+        {
+          "title": "Spyro's Adventure",
+          "album": "Spyro",
+          "album": "Album 2",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        },
+        {
+          "title": "Song 2",
+          "album": "Album 2",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        },
+        {
+          "title": "Song 3",
+          "album": "Album 3",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        },
+        {
+          "title": "Song 4",
+          "album": "Album 4",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
         }
       ]
     },
     {
       "playlistID": 7,
-      "playlist_name": "Place HOLder",
-      "playlist_author": "Place HOLder",
-      "playlist_art": "assets/img/playlist.png",
+      "playlist_name": "Inpired by Nature",
+      "playlist_author": "Lauritz Patterson ",
+      "playlist_art": "https://fastly.picsum.photos/id/110/5000/3333.jpg?hmac=AvUBrnXG4ebvrtC08T95vEzD1I9SryZ8KSQ4iJ9tb9s",
       "like_count": 9,
       "songs": [
-        { "title": "Place HOLder", "album": "Throwback", "duration": "3:29" },
-        { "title": "Place HOLder", "album": "Retro Vibes", "duration": "4:02" }
+        {
+          "title": "Nature",
+          "album": "Album 1",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        },
+        {
+          "title": "Nature vibes",
+          "album": "Nocturne",
+          "duration": "4:05",
+          "songArt": "https://picsum.photos/50"
+        },
+
+        {
+          "title": "Song 2",
+          "album": "Album 2",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        },
+        {
+          "title": "Song 2",
+          "album": "Album 2",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        },
+        {
+          "title": "Song 3",
+          "album": "Album 3",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        },
+        {
+          "title": "Song 4",
+          "album": "Album 4",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        }
       ]
     },
     {
       "playlistID": 8,
-      "playlist_name": "Place HOLders",
-      "playlist_author": "Place HOLder",
-      "playlist_art": "assets/img/playlist.png",
+      "playlist_name": "Coffeehouse Vibes",
+      "playlist_author": "Lauritz Patterson",
+      "playlist_art": "https://fastly.picsum.photos/id/180/2400/1600.jpg?hmac=Ig-CXcpNdmh51k3kXpNqNqcDYTwXCIaonYiBOnLXBb8",
       "like_count": 4,
       "songs": [
         {
-          "title": "Place HOLder",
-          "album": "Place HOLder",
-          "duration": "2:55"
+          "title": "coffe vibes",
+          "album": "Album 1",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
         },
-        { "title": "Place HOLder", "album": "Place HOLder", "duration": "3:47" }
+        {
+          "title": "espresso beats",
+          "album": "Nocturne",
+          "duration": "4:05",
+          "songArt": "https://picsum.photos/50"
+        },
+
+        {
+          "title": "Tea vibes",
+          "album": "Tea time",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        },
+        {
+          "title": "Song 2",
+          "album": "Album 2",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        },
+        {
+          "title": "Song 3",
+          "album": "Album 3",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        },
+        {
+          "title": "Song 4",
+          "album": "Album 4",
+          "duration": "3:12",
+          "songArt": "https://picsum.photos/50"
+        }
       ]
     }
   ]

@@ -178,3 +178,23 @@ main {
   display: flex;
   column-gap: 10px;
 }
+.top-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  background-color: #f8f8f8;
+}
+
+.top-nav button {
+  background: none;
+  border: none;
+  color: #1a73e8;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.top-nav button:hover {
+  text-decoration: underline;
+}
