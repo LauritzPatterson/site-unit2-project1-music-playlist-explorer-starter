@@ -1,3 +1,15 @@
+let playlistData = [];
+
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    // Pick a random index from 0 to i
+    const j = Math.floor(Math.random() * (i + 1));
+    // Swap elements array[i] and array[j]
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   // const container = document.getElementById("modalOverlay");
   // const modal = document.getElementById("modalContent");
@@ -145,12 +157,14 @@ document.addEventListener("DOMContentLoaded", () => {
     <img src="${playlist.playlist_art}" alt="Cover" class="playlist-cover" />
     <h2>${playlist.playlist_name}</h2>
     <p>Created by <b>${playlist.playlist_author}</b></p>
-    <ul>
+     <button id="shuffleBtn" style="margin: 2rem auto; display: block;">Shuffle Playlists</button>
+    <ul id="playlistSongList">
       ${playlist.songs
         .map(
           (song) => `
         <li>
-          <b>${song.title}</b> - ${song.artist} <span style="float:right;">${song.duration}</span>
+        <img src="${song.songArt}" alt="Song Art" class="song-artwork" />
+          <b>${song.title}</b> - ${song.artist} <span style="float:right;">${song.duration} ${song.album}</span>
         </li>
       `
         )
@@ -158,8 +172,32 @@ document.addEventListener("DOMContentLoaded", () => {
     </ul>
   `;
 
-    console.log(e.target);
+    document
+      .getElementById("shuffleBtn")
+      .addEventListener("click", function () {
+        const shuffled = shuffleArray([...playlist.songs]);
 
+        // Get the list element
+
+        const songList = document.getElementById("playlistSongList");
+
+        // clear the list's innerhtml
+        songList.innerHTML = "";
+
+        // Re-add new html to the list
+        songList.innerHTML = `
+         ${shuffled
+           .map(
+             (song) => `
+        <li>
+          <b>${song.title}</b> - ${song.artist} <span style="float:right;">${song.duration}</span>
+        </li>
+      `
+           )
+           .join("")}`;
+      });
+
+    // Logic for showing model
     modalOverlay.classList.add("active");
 
     // Close logic
